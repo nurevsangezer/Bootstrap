@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9ECEF;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(53, 53, 60);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+/* body part*/
+
+.jumbotron {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+} 
+
+.lead {
+    font-size: 20px;
+}
+
+.down {
+    font-size: 25px;
+}
+
+.list {
+    text-align: center;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+/* button */
+
+.bttn {
+    font-size: 16px;
+    height: 45px;
+    background-color: rgb(88, 169, 239);
+    border-radius: 20px;
+    border: none;
+}
+
+.bttn:hover {
+    background-color: rgb(146, 143, 140);
+}
+
+.bttn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* products */
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-evenly;   
+    margin-top: 4%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+}
+
+.card p, .card h4 {
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 18px;
+}
+
+.card p {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 25%;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: rgb(53, 53, 60);
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
